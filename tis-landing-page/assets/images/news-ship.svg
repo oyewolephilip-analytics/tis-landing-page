@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 800">
+<defs>
+<linearGradient id="skyship" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#7c94a8"/><stop offset="100%" stop-color="#40546a"/>
+</linearGradient>
+</defs>
+<rect width="700" height="800" fill="url(#skyship)"/>
+<rect x="0" y="560" width="700" height="240" fill="#1e2a38"/>
+<rect x="150" y="620" width="380" height="70" fill="#2b3b4c"/>
+<rect x="180" y="480" width="20" height="140" fill="#1a2734"/>
+<rect x="330" y="230" width="34" height="390" fill="#3a4a58"/>
+<circle cx="347" cy="220" r="26" fill="#3a4a58"/>
+<rect x="300" y="330" width="40" height="18" fill="#c98a3a"/>
+<rect x="250" y="560" width="220" height="80" fill="#28394a"/>
+<rect x="270" y="600" width="180" height="60" fill="#ffffff" opacity="0.85"/>
+<rect x="470" y="470" width="12" height="150" fill="#1a2734"/>
+<rect x="120" y="470" width="12" height="150" fill="#1a2734"/>
+<line x1="126" y1="470" x2="200" y2="380" stroke="#1a2734" stroke-width="5"/>
+<line x1="476" y1="470" x2="400" y2="380" stroke="#1a2734" stroke-width="5"/>
+<rect x="140" y="700" width="360" height="40" fill="#0f171f"/>
+</svg>
