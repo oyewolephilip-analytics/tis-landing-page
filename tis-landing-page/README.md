@@ -62,9 +62,11 @@ open index.html   # or just double-click the file
 
 ## Notes
 
-- Images are custom SVG illustrations built to match the visual style of the original design (rig, dockyard, and industrial scenes) rather than licensed stock photography.
 - Fonts: [Poppins](https://fonts.google.com/specimen/Poppins) and [Inter](https://fonts.google.com/specimen/Inter), loaded via Google Fonts CDN. See `assets/fonts/README.md` for self-hosting instructions.
 
+## Terminal Setup
+
+![Git terminal commands](screenshots/terminal.png)
 ## Author
 
 Built by [Oyewole Philip](https://github.com/oyewolephilip-analytics) as a front-end development training assignment.
