@@ -14,7 +14,6 @@
 
 <body>
 
-  <!-- ===== HEADER ===== -->
   <header class="site-header">
     <div class="container header__inner">
       <a href="#home" class="logo">
@@ -23,7 +22,7 @@
       </a>
 
       <nav class="nav" id="siteNav">
-        <a href="#HOME" class="is-active">Home</a>
+        <a href="#HOME" class="is-active">HOME</a>
         <a href="#COURSES">COURSES</a>
         <a href="#SERVICES">SERVICE OFFERS</a>
         <a href="#ABOUT">ABOUT</a>
@@ -33,16 +32,12 @@
       <div class="header__actions">
         <a href="#CONTACT" class="link-plain">SIGN UP</a>
         <a href="#CONTACT" class="btn btn--primary btn--sm">LOGIN</a>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
       </div>
     </div>
   </header>
 
   <main>
 
-    <!-- ===== HERO ===== -->
     <section class="hero" id="home">
       <div class="container hero__inner">
         <div class="hero__content">
@@ -76,7 +71,6 @@
       </div>
     </section>
 
-    <!-- ===== API COURSES ===== -->
     <section class="courses" id="courses">
       <div class="container">
         <div class="section-head">
@@ -147,7 +141,6 @@
       </div>
     </section>
 
-    <!-- ===== ABOUT ===== -->
     <section class="about" id="about">
       <div class="container about__inner">
         <h2>TIS LTD.<br>First step is to<br>take one ...</h2>
@@ -168,7 +161,6 @@
       </div>
     </section>
 
-    <!-- ===== NEWS ROOM ===== -->
     <section class="news" id="work">
       <div class="container">
         <p class="eyebrow">News room at TIS LTD.</p>
@@ -213,7 +205,6 @@
       </div>
     </section>
 
-    <!-- ===== TRUSTED BY ===== -->
     <section class="trusted">
       <div class="container">
         <h2>Trusted by agency<br>and store</h2>
@@ -224,8 +215,7 @@
           <img src="assets/icons/agency_third_icon.png" alt="" class="t3">
           <img src="assets/icons/agency_fourth_icon.png" alt="" class="t4">
           <img src="assets/icons/agency_fifth_icon.png" alt="" class="t5">
-          <img src="assets/icons/agency_sixth_icon.png" alt="" class="t6">
-          <img src="assets/icons/agency_sixth_icon.png" alt="" class="t7">
+          <img src="assets/icons/agency_fifth_icon.png" alt="" class="t6">
 
           <div class="trusted__card">
             <p>
@@ -244,7 +234,6 @@
       </div>
     </section>
 
-    <!-- ===== CTA ===== -->
     <section class="cta" id="CONTACT">
       <div class="container">
         <div class="cta__card">
@@ -266,7 +255,6 @@
 
   </main>
 
-  <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer__top">
@@ -306,15 +294,6 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    const navToggle = document.getElementById('navToggle');
-    const siteNav = document.getElementById('siteNav');
-    navToggle.addEventListener('click', () => {
-      const isOpen = siteNav.classList.toggle('is-open');
-      navToggle.setAttribute('aria-expanded', isOpen);
-    });
-  </script>
 
 </body>
 
